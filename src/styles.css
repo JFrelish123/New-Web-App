@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    size: 100%;
+    background-image: url(C:\Users\Jeffrey\Desktop\star.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    ;
+    
+  
+    
+    
+}
+.name{
+    color: blue;
+    
+}
+div {
+    overflow: auto;
+}
+

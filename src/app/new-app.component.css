@@ -1,0 +1,26 @@
+footer {
+    
+    text-align: right;
+    line-height: center;
+    font-style: italic;
+    font-size: xx-large;
+    color: white;
+    position: fixed;
+    bottom:175px;
+  }
+
+header {
+    margin-top: 8px;
+    text-align: center;
+    align-items: right;
+    font-style: italic;
+    font-size: x-large;
+    color: blue;
+}
+
+.span{
+    text-align: center;
+}
+
+
+  

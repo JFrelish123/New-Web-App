@@ -1,15 +1,19 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
+import { AppComponent } from './new-app.component';
+import {MatButtonModule} from '@angular/material/Button;
+
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        MatButtonModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        MatButtonModule
       ],
     }).compileComponents();
   });
